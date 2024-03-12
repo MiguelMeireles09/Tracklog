@@ -1,0 +1,296 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: white;
+  color: #fff;
+  font-family: "Rubik";
+  letter-spacing: 0.5px;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  height: 844px;
+  width: 390px;
+  justify-content: end;
+  align-items: center;
+  background-color: rgb(28 25 23);
+}
+
+.footerMenu {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  justify-content: center;
+  padding-bottom: 22px;
+  background-color: rgb(39 39 42);
+  padding-top: 24px;
+  color: white;
+  font-size: 14px;
+}
+
+.links {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.icon {
+  font-size: 28px;
+  fill: white;
+  justify-content: center;
+  display: flex;
+}
+
+.gridCards {
+  width: 350px;
+  height: 100%;
+  overflow: auto;
+  padding-top: 30px;
+}
+
+.gridCards section {
+  width: 100%;
+  height: 100%;
+}
+
+.loadedComp {
+  overflow: auto;
+  background-color: transparent;
+}
+
+.cardGerais {
+  font-size: 30px;
+  background-color: rgb(39 39 42);
+  color: #facc15;
+  width: 165px;
+  height: 80px;
+  padding-left: 12px;
+  border-radius: 20px;
+  padding-top: 5px;
+}
+
+
+.textoCards {
+  font-size: 15px;
+  color: white;
+  line-height: 5px;
+}
+
+.menuStats {
+  gap: 15px;
+  font-size: 26px;
+  line-height: 2rem;
+  text-align: center;
+  padding-bottom: 40px;
+}
+
+.menuStats a {
+  margin-right: 10px;
+}
+
+
+.searchButton {
+  color: #000;
+  padding-left: 10px;
+}
+
+.searchIcon {
+  color: black;
+}
+
+.searchContainer {
+  margin-top: 30px;
+}
+
+.top100return {
+  font-size: 14px;
+  width: 100%;
+  gap: 5px;
+  background-color: rgb(39 39 42);
+  border-radius: 5px;
+  line-height: 3;
+  padding-left: 10px;
+}
+
+.labelscontainer {
+  text-align: center;
+  display: flex;
+}
+
+.labelscontainer span {
+  width: 50px;
+  background-color: #ccc;
+}
+
+.topNavLinks {
+  background-color: rgb(39 39 42);
+  border-radius: 5px;
+  line-height: 19px;
+  padding: 5px;
+}
+
+.green-square {
+  display: flex;
+  width: 100%;
+  height: 300px;
+  position: relative;
+  justify-content: center;
+}
+
+.green-square2 {
+  padding-top: 50px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+}
+
+.green-square3 {
+  display: flex;
+  width: 100%;
+  height: 300px;
+  background-color: rgba(188, 25, 25, 0.74);
+  ;
+  position: relative;
+}
+
+.title {
+  font-size: 25px;
+}
+
+.text {
+  font-size: 60px;
+  position: absolute;
+  bottom: 2px;
+  right: 2px;
+  width: 100%;
+  text-align: right;
+
+}
+
+.image-container {
+  display: flex;
+  justify-content: center;
+  padding-top: 80px;
+}
+
+.image-container2 {
+  display: flex;
+  justify-content: center;
+  padding-top: 55px;
+}
+
+.pcontainer {
+  display: flex;
+  justify-content: center;
+  font-size: 40px;
+  margin-top: 30px;
+  color: #facc15;
+
+}
+
+.p2 {
+  color: white;
+  font-size: 20px;
+  text-align: center;
+  padding-top: 15px;
+}
+
+.profile {
+  background-color: #282828;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 100%;
+}
+
+
+/* ACTIVE HIGHLIGHTS  */
+
+.footerMenu a.links.active svg {
+  fill: #facc15;
+}
+
+.footerMenu a.links.active {
+  color: #facc15;
+}
+
+.butoesTempo a.topNavLinks.active {
+  background-color: #facc15;
+  color: #000;
+}
+
+.activeLink {
+  color: #facc15;
+}
+
+.link {
+  color: white;
+}
+
+.user-info {
+  font-size: large;
+}
+
+
+.griderror div {
+  border: 1px solid white;
+}
+
+
+.user-info {
+  font-size: large;
+}
+
+.profile-picture-container {
+  width: 150px;
+  height: 150px; 
+  border-radius: 50%; 
+  overflow: hidden; 
+  display: flex;
+  
+  
+}
+
+
+  .outer-container {
+    justify-content: center;
+    text-align: center;
+  }
+  .linhas{
+    
+    font-size: 16px;
+    width: 90%;
+    background-color: rgb(40, 39, 39);
+    padding: 10px;
+    margin: 20px;
+    color: rgb(255, 255, 255);
+    position:relative ;
+    left: 0;
+  
+    
+  
+  
+  }
+  
+  .linhas p {
+    display: flex;
+    
+    align-items: center;
+  }
+  
+  .linhas p svg {
+    margin: 5px;
+  
+  }
+  
